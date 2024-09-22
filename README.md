@@ -72,7 +72,7 @@ This project demonstrates a 2-player shooting game designed in **SystemVerilog**
 ## Project Structure
 
 ```
-To be Updates
+To be Updated
 ```
 
 ---

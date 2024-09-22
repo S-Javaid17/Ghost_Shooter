@@ -114,8 +114,8 @@ To be Updates
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/ghost-shooter-fpga
-   cd ghost-shooter-fpga
+   git clone https://github.com/S-Javaid17/Ghost_Shooter
+   cd Ghost_Shooter
    ```
 
 **To Be Updated**

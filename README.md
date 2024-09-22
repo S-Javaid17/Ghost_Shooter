@@ -14,7 +14,7 @@ A 2-player shooter game implemented on the **Artix-7 FPGA (Nexys A7-100T)**. The
 3. [Xilinx IPs Used](#xilinx-ips-used)
 4. [Game Features](#game-features)
 5. [Project Structure](#project-structure)
-6. [Testing, Debugging, and Progress](#testing,-debugging,-and-progress)
+6. [Testing, Debugging, and Progress](#testing-debugging-and-progress)
 7. [Usage Instructions](#usage-instructions)
 8. [How to Customize](#how-to-customize)
 

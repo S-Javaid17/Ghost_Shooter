@@ -30,9 +30,7 @@ This project demonstrates a 2-player shooting game designed in **SystemVerilog**
 
 - **FPGA Board**: Nexys A7-100T
 - **Joysticks**: 2 Analog Joysticks with built-in buttons, interfaced via the **XADC** pins
-- **VGA Monitor**: For displaying game graphics
-- **Vivado Software**: For synthesis, implementation, and debugging
-
+- **VGA Monitor and Cable**: For displaying game graphics
 ---
 
 ## Xilinx IPs Used

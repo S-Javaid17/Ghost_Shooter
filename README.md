@@ -74,18 +74,7 @@ This project demonstrates a 2-player shooting game designed in **SystemVerilog**
 ## Project Structure
 
 ```
-├── src/
-│   ├── ghost_movement.v      # Player sprite movement control based on joystick inputs
-│   ├── rotation_logic.v      # Logic for handling sprite rotation (90-degree CW)
-│   ├── bullet_control.v      # Handles bullet spawning, movement, and collisions
-│   ├── vga_controller.v      # VGA synchronization and rendering logic
-│   ├── osd_core.v            # On-Screen Display (OSD) for score
-│   └── debounce.v            # Debouncing module for buttons
-├── constraints/
-│   ├── Nexys-A7.xdc          # Pin constraints for XADC, VGA, and buttons
-├── docs/
-│   └── game_mechanics.md     # Detailed explanation of game mechanics and architecture
-└── README.md                 # This file
+To be Updates
 ```
 
 ---
@@ -113,12 +102,11 @@ This project demonstrates a 2-player shooting game designed in **SystemVerilog**
    If there are display glitches or misalignment, check the pixel clock and frame counter. Also, ensure that the 25 MHz clock (derived from the 100 MHz system clock) is correctly configured (refer to clock management circuit).
 
 3. **Sprite Rendering**:  
-   Confirm that sprites appear in the correct positions by simulating movement logic and VGA output in Vivado’s simulation environment. Check the sprite sheet to ensure all rotations are displayed as expected.
+   Confirm that sprites appear in the correct positions by simulating movement logic and VGA outputs.
 
-### Button Debouncing
+### Progress 
 
-- Use test benches to verify the debouncing logic for both rotation and shooting buttons.
-- Verify in hardware that button presses register only once per press, even with slight bouncing.
+- 
 
 ---
 
@@ -130,34 +118,19 @@ This project demonstrates a 2-player shooting game designed in **SystemVerilog**
    cd ghost-shooter-fpga
    ```
 
-2. **Open in Vivado**:
-   - Open Vivado and create a new project.
-   - Add the Verilog source files under the `src/` directory.
-   - Include the constraint file (`Nexys-A7.xdc`) for proper pin mapping.
-
-3. **Synthesize & Implement**:
-   - Run synthesis and implementation in Vivado.
-   - Generate the bitstream file for the FPGA.
-
-4. **Programming the FPGA**:
-   - Use the Nexys A7-100T board and program it with the generated bitstream.
-   - Connect the joysticks and VGA monitor to start playing the game.
+**To Be Updated**
 
 ---
 
 ## How to Customize
 
 1. **Change Game Mechanics**:  
-   Modify `game_mechanics.md` to adjust bullet speed, sprite size, or shooting frequency.
+   Modify `___.sv` to adjust bullet speed, sprite size, or shooting frequency.
 
-2. **Add More Sprites**:  
-   You can add new sprites by extending the sprite sheet and updating the rendering logic.
+2. **Change the Images**:  
+   You can add new images by changing the respective sprite RAMs and their top-files to adjust dimensions.
+      Keep sprite dimensions to powers of 2, for easy addressing.
 
-3. **Modify VGA Resolution**:  
+4. **Modify VGA Resolution**:  
    The VGA output can be configured for different resolutions by adjusting the timing parameters in the VGA controller.
-
----
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
+      Modify the clock management circuit's outputs accordingly

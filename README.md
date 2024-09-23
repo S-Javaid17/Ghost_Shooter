@@ -104,7 +104,10 @@ To be Updated
 
 ### Progress 
 
-- 
+- [Joystick Setup](https://drive.google.com/file/d/1QxyfuQxW-tQ4-vXFEK-qxtqdrMt_vosZ/view?usp=sharing)
+- [Joystick Connection to ADC](https://drive.google.com/file/d/1M5qBmRv3lUVQnF__7HtW_OjDB-j_idKX/view?usp=sharing)
+- [Single Joystick X-Axis](https://drive.google.com/file/d/1j5iI7gM1VL_FqBaDQ7VUGAaooFLhArA_/view?usp=sharing)
+- [Dual Joystick Connection with Colour Select and Sprite Rotation](https://drive.google.com/file/d/1CW-YXW55BcLfGzL1gFfwKFzptD9NyRex/view?usp=sharing)
 
 ---
 
